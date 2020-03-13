@@ -4,22 +4,22 @@
       <tab-bar-item link='/home'>
         <img slot="item-icon" src="~assets/img/tabbar/home/home.png" alt=" ">
         <img slot="item-icon-active" src="~assets/img/tabbar/home/acthome.png" alt=" ">
-        <div slot="item-text">首页</div>
+        <div slot="item-text" class="item-text">首页</div>
       </tab-bar-item>
       <tab-bar-item link='/category' activeColor='red'>
         <img slot="item-icon" src="~assets/img/tabbar/category/category.png" alt=" ">
         <img slot="item-icon-active" src="~assets/img/tabbar/category/actcategory.png" alt=" ">
-        <div slot="item-text">分类</div>
+        <div slot="item-text" class="item-text">分类</div>
       </tab-bar-item>
       <tab-bar-item link='/cart'>
         <img slot="item-icon" src="~assets/img/tabbar/cart/shoppingcart.png" alt=" ">
         <img slot="item-icon-active" src="~assets/img/tabbar/cart/actshoppingcart.png" alt=" ">
-        <div slot="item-text">购物车</div>
+        <div slot="item-text" class="item-text">购物车</div>
       </tab-bar-item>
       <tab-bar-item link='/profile'>
         <img slot="item-icon" src="~assets/img/tabbar/profile/profile.png" alt=" ">
         <img slot="item-icon-active" src="~assets/img/tabbar/profile/actprofile.png" alt=" ">
-        <div slot="item-text">我的</div>
+        <div slot="item-text" class="item-text">我的</div>
       </tab-bar-item>
     </tab-bar>
 
@@ -45,5 +45,8 @@
   .main-tab-bar{
     position: relative;
     z-index: 7;
+  }
+  .item-text{
+    margin-top: 5px;
   }
 </style>

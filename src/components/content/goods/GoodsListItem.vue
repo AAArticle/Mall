@@ -4,7 +4,6 @@
     <div class="goods-info">
       <p>{{goodsItem.title}}</p>
       <span class="price">{{goodsItem.price}}</span>
-      <!-- <img src='~assets/img/home/collect.svg' class='collect' alt=''> -->
       <span class="collect">{{goodsItem.cfav}}</span>
     </div>
   </div>
