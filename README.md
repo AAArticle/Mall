@@ -1,4 +1,4 @@
-# mall
+# Vue-mall
 
 ## Project setup
 ```
@@ -20,5 +20,5 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 由于接口可能存在不定期更新，如维护不及时请见谅
+
